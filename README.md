@@ -1,4 +1,4 @@
-Project Description:
+![image](https://github.com/user-attachments/assets/e2cd7ac0-984a-4721-9846-7849d0317a38)Project Description:
 This project implements a user management system that includes user registration, login with OTP verification, and account management functionalities. The application enables:
 
 User Login & Registration: Users can create new accounts and log in using their credentials.
@@ -85,3 +85,4 @@ OTP_EXPIRATION_TIME: The time in minutes for the OTP to expire (default is 10 mi
 
 JWT_SECRET=mySecretKey123
 OTP_EXPIRATION_TIME=10
+![image](https://github.com/user-attachments/assets/fcceb97d-336b-4eb5-a5eb-3bcad14b2e4b)
