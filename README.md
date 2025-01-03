@@ -1,6 +1,9 @@
 Project Description:
 This project implements a user management system that includes user registration, login with OTP verification, and account management functionalities. The application enables:
-
+Technologies Used:
+Frontend: React.js ,HTML,CSS
+Backend: Node.js / Express.js
+Database: SQL
 User Login & Registration: Users can create new accounts and log in using their credentials.
 OTP Verification: After login, a 6-digit OTP is generated for added security.
 Account Management: Users can delete their accounts if necessary.
@@ -12,10 +15,6 @@ OTP Verification: After user enters OTP, verify its validity.
 User Registration: New users can register by providing name, email, password, company name, age, date of birth (DOB), and a profile image (PNG/JPG).
 Account Deletion: A "Remove Account" feature allows users to delete their accounts.
 Form Validation: Ensures proper input validation (email format, password rules, image format).
-Technologies Used:
-Frontend: React.js 
-Backend: Node.js / Express.js
-Database: SQL
 Email validation and no duplication of email,password min 6 length and max 10.
 And OTP expires after 10minutes of receiving.
 Authentication: JWT (JSON Web Tokens) for secure login
