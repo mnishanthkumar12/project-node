@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e2cd7ac0-984a-4721-9846-7849d0317a38)Project Description:
+Project Description:
 This project implements a user management system that includes user registration, login with OTP verification, and account management functionalities. The application enables:
 
 User Login & Registration: Users can create new accounts and log in using their credentials.
@@ -13,9 +13,11 @@ User Registration: New users can register by providing name, email, password, co
 Account Deletion: A "Remove Account" feature allows users to delete their accounts.
 Form Validation: Ensures proper input validation (email format, password rules, image format).
 Technologies Used:
-Frontend: React.js / Next.js
+Frontend: React.js 
 Backend: Node.js / Express.js
-Database: MongoDB (or any other database you used)
+Database: SQL
+Email validation and no duplication of email,password min 6 length and max 10.
+And OTP expires after 10minutes of receiving.
 Authentication: JWT (JSON Web Tokens) for secure login
 OTP Generation: Custom OTP logic using crypto or an npm package
 Image Upload: Use multer or a similar package for handling file uploads
@@ -86,3 +88,8 @@ OTP_EXPIRATION_TIME: The time in minutes for the OTP to expire (default is 10 mi
 JWT_SECRET=mySecretKey123
 OTP_EXPIRATION_TIME=10
 ![image](https://github.com/user-attachments/assets/fcceb97d-336b-4eb5-a5eb-3bcad14b2e4b)
+![image](https://github.com/user-attachments/assets/ac422c41-442c-4f5c-ab1e-292aea13dd47)
+![image](https://github.com/user-attachments/assets/75d45fd6-aa5c-4eb0-a856-7dcc837f6ad8)
+![image](https://github.com/user-attachments/assets/fb86a7b1-27b5-4c25-9758-a4dc12f9102a)
+
+
